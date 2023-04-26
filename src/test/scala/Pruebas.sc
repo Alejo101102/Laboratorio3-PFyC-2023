@@ -40,9 +40,10 @@ decodificar(arbolPrueba, List(0, 0, 0)) == List('o')
 decodificar(arbolPrueba, List(0, 0, 0)) == List('o')//cambiar
 decodificar(arbolPrueba, List(0, 0, 1)) //cambiar
 
+/*
 // codificar
-codificar(arbolPrueba)(List('S', 'x', 'c', 'x', 'a', 'x', 'l', 'x', 'a'))
-codificar(arbolPrueba)(List('S', 'c', 'a', 'l', 'a'))
+codificar(arbolPrueba)(List('H', 'x', 'o', 'x', 'l', 'x','a'))
+codificar(arbolPrueba)(List('H', 'o', 'l', 'a'))
 val tablaA = List(('H', (codificar(arbolPrueba)(List('H')))), ('o', (codificar(arbolPrueba)(List('o')))), ('l', (codificar(arbolPrueba)(List('l')))), ('a', (codificar(arbolPrueba)(List('a')))))
 val tablaB = List()
 val tablaC = List(('H', (codificar(arbolPrueba)(List('H')))))
@@ -60,6 +61,7 @@ codigoEnBits(tablaC)('i')
 codigoEnBits(tablaB)('n')
 codigoEnBits(tablaE)('c')
 codigoEnBits(tablaG)('o')
+*/
 
 // convertir
 convertir(lista1.head)
@@ -73,7 +75,7 @@ codificarRapido(arbolPrueba2)(List('h', 'o', 'l', 'a', 'm', 'u', 'n', 'd', 'o'))
 codificarRapido(arbolPrueba2)(List('c','o','d','i','f','i','c','a','m','e'))
 codificarRapido(arbolPrueba2)(List('h','a','n','o','i'))
 codificarRapido(arbolPrueba2)(List('c','o','n','j','d','i','f','u','s','o'))
-codificarRapido(arbolPrueba2)(List('G','o','k','u','u','u','u'))
+//codificarRapido(arbolPrueba2)(List('G','o','k','u','u','u','u'))
 
 // ocurrencias
 ocurrencias(List('c','o','n','j','d','i','f','u','s','o'))
