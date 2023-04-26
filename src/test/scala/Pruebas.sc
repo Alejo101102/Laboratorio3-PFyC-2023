@@ -61,8 +61,8 @@ codigoEnBits(tablaC)('i')
 codigoEnBits(tablaB)('n')
 codigoEnBits(tablaE)('c')
 codigoEnBits(tablaG)('o')
-*/
 
+*/
 // convertir
 convertir(lista1.head)
 convertir(combinacion1.head)
