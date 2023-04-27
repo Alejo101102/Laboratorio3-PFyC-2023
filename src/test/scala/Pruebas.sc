@@ -37,8 +37,8 @@ val arbolPrueba2 = crearArbolDeHuffman(simbolosConjunto)
 decodificar(arbolPrueba, List(0, 0, 0))
 decodificar(arbolPrueba, List(0, 0, 1))
 decodificar(arbolPrueba, List(0, 0, 0)) == List('o')
-decodificar(arbolPrueba, List(0, 0, 0)) == List('o')//cambiar
-decodificar(arbolPrueba, List(0, 0, 1)) //cambiar
+decodificar(arbolPrueba, List(0, 1, 0)) == List('z')
+decodificar(arbolPrueba, List(1, 0, 0))
 
 /*
 // codificar
