@@ -40,10 +40,11 @@ decodificar(arbolPrueba, List(0, 0, 0)) == List('o')
 decodificar(arbolPrueba, List(0, 0, 0)) == List('o')//cambiar
 decodificar(arbolPrueba, List(0, 0, 1)) //cambiar
 
+/*
 // codificar
-//codificar(arbolPrueba)(List('H', 'x', 'o', 'x', 'l', 'x','a'))
-//codificar(arbolPrueba)(List('H', 'o', 'l', 'a'))
-/val tablaA = List(('H', (codificar(arbolPrueba)(List('H')))), ('o', (codificar(arbolPrueba)(List('o')))), ('l', (codificar(arbolPrueba)(List('l')))), ('a', (codificar(arbolPrueba)(List('a')))))
+codificar(arbolPrueba)(List('H', 'x', 'o', 'x', 'l', 'x','a'))
+codificar(arbolPrueba)(List('H', 'o', 'l', 'a'))
+val tablaA = List(('H', (codificar(arbolPrueba)(List('H')))), ('o', (codificar(arbolPrueba)(List('o')))), ('l', (codificar(arbolPrueba)(List('l')))), ('a', (codificar(arbolPrueba)(List('a')))))
 val tablaB = List()
 val tablaC = List(('H', (codificar(arbolPrueba)(List('H')))))
 
@@ -61,6 +62,7 @@ codigoEnBits(tablaB)('n')
 codigoEnBits(tablaE)('c')
 codigoEnBits(tablaG)('o')
 
+*/
 // convertir
 convertir(lista1.head)
 convertir(combinacion1.head)
@@ -73,7 +75,7 @@ codificarRapido(arbolPrueba2)(List('h', 'o', 'l', 'a', 'm', 'u', 'n', 'd', 'o'))
 codificarRapido(arbolPrueba2)(List('c','o','d','i','f','i','c','a','m','e'))
 codificarRapido(arbolPrueba2)(List('h','a','n','o','i'))
 codificarRapido(arbolPrueba2)(List('c','o','n','j','d','i','f','u','s','o'))
-codificarRapido(arbolPrueba2)(List('G','o','k','u','u','u','u'))
+//codificarRapido(arbolPrueba2)(List('G','o','k','u','u','u','u'))
 
 // ocurrencias
 ocurrencias(List('c','o','n','j','d','i','f','u','s','o'))
@@ -81,3 +83,29 @@ ocurrencias(List('c'))
 ocurrencias(List('c', 'o', 'n', 'j'))
 ocurrencias(List('S', 'x', 'c', 'x', 'a', 'x', 'l', 'x', 'a'))
 ocurrencias(List('D', 'r', 'a', 'g', 'o', 'n', 'b', 'a', 'l', 'l', 'z'))
+
+//Más listas para jugar
+val arbol1 = Nodo(Nodo(Hoja('a', 4), Hoja('b', 3), List('a', 'b'), 7), Hoja('c', 4), List('a', 'b', 'c'), 11)
+val arbol2 = Nodo(Hoja('a', 3), Hoja('b', 2), List('a', 'b'), 5)
+val arbol3 = Nodo(Nodo(Hoja('a', 2), Hoja('b', 3), List('a', 'b'), 5), Nodo(Hoja('c', 4), Hoja('d', 5), List('c', 'd'), 9), List('a', 'b', 'c', 'd'), 14)
+val arbol4 = Nodo(Hoja('a', 5), Nodo(Hoja('c', 3), Hoja('d', 2), List('e'), 5), List('t', 'y'), 10)
+
+//peso
+peso(arbolPrueba)
+peso(arbolPrueba2)
+peso(arbol1)
+peso(arbol2)
+peso(arbol3)
+
+//cars
+cars(arbolPrueba2)
+cars(arbol1)
+cars(arbol2)
+cars(arbol3)
+cars(arbol4)
+
+//listaDeHojasOrdenadas
+listaDeHojasOrdenadas(arbolPrueba2)
+
+//listaUnitaria
+listaUnitaria(lista1)
